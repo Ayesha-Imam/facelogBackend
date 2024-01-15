@@ -7,5 +7,5 @@ app = Flask(__name__)
 api = Api(app)
 
 # Configure Flask-PyMongo
-app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"
+app.config["MONGO_URI"] = "mongodb+srv://Ayesha:Ayesha123@facelog.ecludwz.mongodb.net/FacelogDB"
 mongo = PyMongo(app)

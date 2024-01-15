@@ -29,3 +29,5 @@ class registerAdmin(Resource):
             return {"newAccount": True, "adminID": str(result.inserted_id)}, 201
         else:
             return {"error": "Failed to create a new account"}, 500
+        
+        
